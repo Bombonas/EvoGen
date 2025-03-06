@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>EvoGen</title>
+    <script defer src="./renderer.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h3>EvoGen</h3>
+      <div class="vertical-separator"></div>
+      <span class="top-menu" id="Generador">Generador</span>
+      <span class="top-menu" id="Editor">Editor</span>
+    </div>
+    <div class="generador">
+      <div class="selector">
+        <h1>JUGADOREEE</h1>
+        <div class="turn-box">
+          <div class="turnDisplay">
+            <h2>Ronda:</h2>
+            <h2 class="roundNum">1</h2>
+
+            <h3 class="turn">Turno:</h3>
+            <h3 class="turnNum">1</h3>
+          </div>
+          <div class="turnButtons">
+            <span class="buttonS smallB">Siguiente</span>
+            <span class="buttonS smallB">Anterior</span>
+          </div>
+        </div>
+        <div class="button-box">
+          <span class="buttonS" id="gen">Nuevo evento</span>
+        </div>
+      </div>
+      <div class="event-show">
+        <div class="show-area">
+          <h1>o</h1>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
