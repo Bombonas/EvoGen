@@ -1,9 +1,8 @@
 const $ = (selector) => document.querySelector(selector);
 
-const $count = $("#count");
-const $button = $("button");
+const $genButton = $("#gen");
 
-$button.addEventListener("click", () => {
-  const count = +$count.innerHTML;
-  $count.innerHTML = (count + 1).toString();
+$genButton.addEventListener("click", async () => {
+  const $msgArea = $("#msgArea");
+  $msgArea.innerHTML = await window.electronAPI.newEvent();
 });
