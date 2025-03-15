@@ -1,0 +1,14 @@
+{
+  "events": [
+    {
+      "title": "Buenas cosechas",
+      "round": 1,
+      "text": "Han habido buenas cosechas, +500 de oro"
+    },
+    {
+      "title": "Piratas en las costas",
+      "round": 1,
+      "text": "Esos sucios bucaneros han asaltado un puerto de tu país, -500 de oro"
+    }
+  ]
+}

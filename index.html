@@ -24,7 +24,13 @@
     </div>
     <div class="generador">
       <div class="selector">
-        <h1>JUGADOREEE</h1>
+        <div class="boxPlayers">
+          <span>Jugadores</span>
+          <input type="number" id="nPlayers" min="2" max="4" />
+          <div>
+            <span class="buttonS smallB">OK</span>
+          </div>
+        </div>
         <div class="turn-box">
           <div class="turnDisplay">
             <h2>Ronda:</h2>
@@ -34,8 +40,12 @@
             <h3 class="turnNum">1</h3>
           </div>
           <div class="turnButtons">
-            <span class="buttonS smallB">Siguiente</span>
-            <span class="buttonS smallB">Anterior</span>
+            <div class="divButtonsTurn">
+              <span class="buttonS smallB">Siguiente</span>
+            </div>
+            <div class="divButtonsTurn">
+              <span class="buttonS smallB">Anterior</span>
+            </div>
           </div>
         </div>
         <div class="button-box">

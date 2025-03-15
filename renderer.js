@@ -2,7 +2,9 @@ const $ = (selector) => document.querySelector(selector);
 
 const $genButton = $("#gen");
 
-$genButton.addEventListener("click", async () => {
+$genButton.addEventListener("click", () => {
   const $msgArea = $("#msgArea");
-  $msgArea.innerHTML = await window.electronAPI.newEvent();
+
+  const event = window.electronAPI.newEvent();
+  $msgArea.innerHTML = "<h3>" + event.title + "</h3><p>" + event.text + "</p>";
 });
