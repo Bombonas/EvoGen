@@ -9,6 +9,11 @@
       "title": "Piratas en las costas",
       "round": 1,
       "text": "Esos sucios bucaneros han asaltado un puerto de tu país, -500 de oro"
+    },
+    {
+      "title": "Lorem Ipsum",
+      "round": 1,
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tempor libero eu nisl eleifend sodales. Phasellus sollicitudin consectetur lorem, sed mattis lacus posuere id. Quisque mauris mauris, molestie dapibus finibus vitae, ultrices nec orci. Ut sem massa, pellentesque et augue sed, aliquam porta mi. Maecenas sed venenatis massa. Duis convallis eros varius velit luctus aliquam. Praesent efficitur id nisl eu faucibus. In quis quam erat. Aenean at massa id nulla dapibus mattis et quis erat. Suspendisse sodales diam ac blandit tristique. Donec tempus, est quis lobortis vehicula, mauris sapien mattis odio, eu imperdiet sapien nisl tristique nunc. Maecenas sollicitudin tincidunt erat, eu feugiat libero. Vivamus non libero ullamcorper, sollicitudin erat a, aliquet ante."
     }
   ]
 }

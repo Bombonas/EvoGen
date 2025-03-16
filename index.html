@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div id="toast">No se puede bajar más el turno.</div>
     <div class="header">
       <h3>EvoGen</h3>
       <div class="vertical-separator"></div>
@@ -28,23 +29,23 @@
           <span>Jugadores</span>
           <input type="number" id="nPlayers" min="2" max="4" />
           <div>
-            <span class="buttonS smallB">OK</span>
+            <span id="confirm" class="buttonS smallB">OK</span>
           </div>
         </div>
         <div class="turn-box">
           <div class="turnDisplay">
             <h2>Ronda:</h2>
-            <h2 class="roundNum">1</h2>
+            <h2 id="round" class="roundNum">1</h2>
 
             <h3 class="turn">Turno:</h3>
-            <h3 class="turnNum">1</h3>
+            <h3 id="turn" class="turnNum">1</h3>
           </div>
           <div class="turnButtons">
             <div class="divButtonsTurn">
-              <span class="buttonS smallB">Siguiente</span>
+              <span id="prev" class="buttonS smallB">Anterior</span>
             </div>
             <div class="divButtonsTurn">
-              <span class="buttonS smallB">Anterior</span>
+              <span id="next" class="buttonS smallB">Siguiente</span>
             </div>
           </div>
         </div>
@@ -54,7 +55,7 @@
       </div>
       <div class="event-show">
         <div class="show-area">
-          <p id="msgArea">o</p>
+          <p id="msgArea"></p>
         </div>
       </div>
     </div>
